@@ -14,3 +14,4 @@ https://www.frontendmentor.io/
 ## Imagen del proyecto:
 
 
+![Sin título-2](https://user-images.githubusercontent.com/70084380/173145949-aa02dbcc-2baa-4369-96c1-acfb0a435f0d.jpg)
