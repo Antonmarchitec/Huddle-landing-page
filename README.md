@@ -7,9 +7,9 @@ Te la recomiendo visitar la página:
 https://www.frontendmentor.io/
 
 ## Datos del proyecto
-Titulo: Huddle landing page with alternating feature blocks
-Tecnologias: HTML, CSS, SASS
-Nivel: Junior 
+- Titulo: Huddle landing page with alternating feature blocks
+- Tecnologias: HTML, CSS, SASS
+- Nivel: Junior 
 
 ## Imagen del proyecto:
 
