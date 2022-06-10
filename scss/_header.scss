@@ -1,0 +1,186 @@
+@import "variables";
+
+.containerHeader{
+   width: 100%;
+   padding: 60px 0px;
+   background: $color_celeste;
+   .containerHeader_subContainer{
+		 width: 100%;
+		 height: 550px;
+		 background-image: url(../images/bg-hero-desktop.svg);
+		 background-size: 100% 100%;
+		 .containerHeader_subContainer_contTop{
+			 width: 100%;
+			 padding: 10px 0px;
+			 display: flex;
+			 flex-direction: row;
+			 justify-content: space-between;
+			 align-items: center;
+			 .containerHeader_subContainer_contTop_logo{
+				width: 240px;
+				height: 38px;
+				//background: rgb(161, 161, 161);
+				margin-left: 50px;
+			}
+			.containerHeader_subContainer_contTop_button{
+				width: 180px;
+				padding: 10px;
+				background: $color_white;
+				margin-right: 50px;
+				border: none;
+				border-radius: 20px;
+        box-shadow: 0px 0px 10px $color_grey;
+				font-family: $font_poppins;
+				font-weight: 600;
+				cursor: pointer;
+				transition: 0.5s all;
+			}
+			.containerHeader_subContainer_contTop_button:hover{
+				color: $color_grey;
+			}
+		 }
+
+		 .containerHeader_subContainer_contBottom{
+			 margin-top: 20px;
+			 width: 100%;
+			 padding: 10px 0px;
+			 display: flex;
+			 flex-direction: row;
+			 flex-wrap: wrap;
+			 justify-content: space-between;
+			 align-items: center;
+			 .containerHeader_subContainer_contBottom_left{
+				width: 510px;
+				padding: 10px 0px;
+				margin-left: 80px;
+				.containerHeader_subContainer_contBottom_left_title{
+					width:500px;
+					font-family: $font_poppins;
+					font-weight: 600;
+					font-size: 40px;
+				}
+				.containerHeader_subContainer_contBottom_left_description{
+					margin-top: 20px;
+					font-family: $font_openSans;
+					font-weight: 100;
+					
+				}
+				.containerHeader_subContainer_contBottom_left_button{
+					margin-top: 20px;
+					width: 210px;
+					padding: 13px;
+					border: none;
+					border-radius: 50px;
+					color: white;
+					background: $color_celeste;
+					transition: 0.5s all;
+				}
+				.containerHeader_subContainer_contBottom_left_button:hover{
+					background: $color_primary_h;
+					cursor: pointer;
+				} 
+			}
+ 
+ 
+			.containerHeader_subContainer_contBottom_right{
+				width: 45%;
+				padding: 10px 0px;
+				margin-right: 80px;
+			}
+		 }
+		 
+     
+   } 
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+  
+.containerHeader{
+	width: 100%;
+	padding: 60px 0px;
+	background: $color_celeste;
+	.containerHeader_subContainer{
+		  width: 100%;
+		  height:750px;
+		  background-image: url(../images/bg-hero-mobile.svg);
+		  background-size: 100% 100%;
+		  .containerHeader_subContainer_contTop{
+			  width: 100%;
+			  padding: 10px 0px;
+			  display: flex;
+			  flex-direction: row;
+			  justify-content: space-between;
+			  align-items: center;
+			  .containerHeader_subContainer_contTop_logo{
+				 width: 150px;
+				 height: 25px;	
+				 margin-left: 20px;
+			 }
+			 .containerHeader_subContainer_contTop_button{
+				 width: 150px;
+				 padding: 8px;
+				 background: $color_white;
+				 margin-right: 20px;
+				 border: none;
+				 border-radius: 20px;
+		         box-shadow: 0px 0px 10px $color_grey;
+				 font-family: $font_poppins;
+				 font-weight: 600;
+				 cursor: pointer;
+				 transition: 0.5s all;
+			 }
+		  }
+ 
+		  .containerHeader_subContainer_contBottom{
+			  margin-top: 20px;
+			  width: 100%;
+			  padding: 10px 0px;
+			  display: flex;
+			  flex-direction: row;
+			  flex-wrap: wrap;
+			  justify-content: space-between;
+			  align-items: center;
+			  .containerHeader_subContainer_contBottom_left{
+				 width: 100%;
+				 padding: 20px;
+				 margin:initial;
+				 text-align: center;
+				 .containerHeader_subContainer_contBottom_left_title{
+					 width:100%;
+					 font-family: $font_poppins;
+					 font-weight: 600;
+					 font-size: 30px;
+				 }
+				 .containerHeader_subContainer_contBottom_left_description{
+					 margin-top: 20px;
+					 font-family: $font_openSans;
+					 font-weight: 100;
+					 
+				 }
+				 .containerHeader_subContainer_contBottom_left_button{
+					 margin: 30px auto;
+					 width: 210px;
+					 padding: 13px;
+					 border: none;
+					 border-radius: 50px;
+					 color: white;
+					 background: $color_primary;
+					 transition: 0.5s all;
+				 }
+			 }
+  
+  
+			 .containerHeader_subContainer_contBottom_right{
+				 width:100%;
+				 padding: 20px;
+				 margin-right:initial;
+			 }
+		  }
+		  
+	  
+	} 
+ }
+ 
+}

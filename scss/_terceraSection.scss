@@ -1,0 +1,161 @@
+@import "variables";
+
+
+.containerTerceraSection{
+    z-index: 100;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    background: white;
+    position: relative;
+    
+    .containerTerceraSection_subcont{
+        width: 90%;
+        padding: 40px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 0px 30px -15px $color_grey;
+        border-radius: 20px;
+        .containerTerceraSectionsubcont_left{
+            width: 500px;
+            padding: 10px 0px;
+            margin-left: 100px;
+            .containerTerceraSectionsubcont_left_title{
+                font-family: $font_poppins;
+                font-size: 30px;
+            }
+            .containerTerceraSectionsubcont_left_description{
+                width: 500px;
+                font-family: $font_openSans;
+                margin-top: 20px;
+                background: rgb(255, 255, 255);
+                color: $color_grey;
+            }
+        }
+        .containerTerceraSection_subcont_right{
+            width: 500px;
+            padding: 10px 0px;
+            margin-right: 30px;
+        }
+    }
+
+
+    .containerTerceraSection_contLittle{
+        z-index: 1000;
+        position: absolute;
+        left: calc(50% - 350px);
+        bottom: -150px;
+        width: 700px;
+        padding: 80px 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px -10px;
+        background: white;
+        .containerTerceraSection_contLittle_title{
+            text-align: center;
+            font-family: $font_poppins;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .containerTerceraSection_contLittle_button{
+            margin-top: 20px;
+            width: 300px;
+            padding: 20px;
+            background: $color_primary;
+            color: $color_white;
+            border: none;
+            border-radius: 50px;
+            margin-left: calc(50% - 150px);
+            transition: 0.5s all;
+        }
+        .containerTerceraSection_contLittle_button:hover{
+            background: $color_primary_h;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    
+.containerTerceraSection{
+    z-index: 100;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    background: white;
+    position: relative;
+    
+    .containerTerceraSection_subcont{
+        width: 90%;
+        padding: 40px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 0px 30px -15px $color_grey;
+        border-radius: 20px;
+        .containerTerceraSection_subcont_right{
+            width: 100%;
+            padding: 10px 50px;
+            margin-right:initial;
+        }
+        .containerTerceraSectionsubcont_left{
+            width: 100%;
+            padding: 10px 20px;
+            margin-left: initial;
+            text-align: center;
+            .containerTerceraSectionsubcont_left_title{
+                font-family: $font_poppins;
+                font-size:25px;
+            }
+            .containerTerceraSectionsubcont_left_description{
+                width: 100%;
+                font-family: $font_openSans;
+                margin-top: 20px;
+                background: rgb(255, 255, 255);
+                color: $color_grey;
+            }
+        }
+        
+    }
+
+
+    .containerTerceraSection_contLittle{
+        z-index: 1000;
+        position: absolute;
+        left: calc(7%);
+        bottom: -80px;
+        width: 85%;
+        padding: 40px 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px -10px;
+        background: white;
+        .containerTerceraSection_contLittle_title{
+            text-align: center;
+            font-family: $font_poppins;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .containerTerceraSection_contLittle_button{
+            margin-top: 20px;
+            width: 200px;
+            padding: 10px;
+            background: $color_primary;
+            color: $color_white;
+            border: none;
+            border-radius: 50px;
+            margin-left: calc(50% - 100px);
+            transition: 0.5s all;
+        }
+       
+    }
+    
+}
+}

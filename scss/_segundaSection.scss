@@ -1,0 +1,90 @@
+@import "variables";
+
+.containerSegundaSection{
+    width: 100%;
+    padding: 20px 0px;
+    background: white;
+    .containerSegundaSection_subcont{
+        width: 90%;
+        padding: 40px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 0px 30px -15px $color_grey;
+        border-radius: 20px;
+        .containerSegundaSectionsubcont_left{
+            width: 500px;
+            padding: 10px 0px;
+            margin-right:50px ;
+            .containerSegundaSectionsubcont_left_title{
+                font-family: $font_poppins;
+                font-size: 30px;
+            }
+            .containerSegundaSectionsubcont_left_description{
+                width: 500px;
+                font-family: $font_openSans;
+                margin-top: 20px;
+                background: rgb(255, 255, 255);
+                color: $color_grey;
+            }
+        }
+        .containerSegundaSection_subcont_right{
+            width: 500px;
+            padding: 10px 0px;
+            margin-left: 100px;
+        }
+    }
+    
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+  
+.containerSegundaSection{
+    width: 100%;
+    padding: 20px 0px;
+    background: white;
+    .containerSegundaSection_subcont{
+        width: 90%;
+        padding: 40px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 0px 30px -15px $color_grey;
+        border-radius: 20px;
+       
+        .containerSegundaSection_subcont_right{
+            width: 100%;
+            padding:10px 50px;
+            margin-left: initial;
+        }
+
+        .containerSegundaSectionsubcont_left{
+            width: 100%;
+            padding: 10px 20px;
+            margin-right:initial;
+            text-align: center;
+            .containerSegundaSectionsubcont_left_title{
+                font-family: $font_poppins;
+                font-size: 25px;
+            }
+            .containerSegundaSectionsubcont_left_description{
+                width: 100%;
+                font-family: $font_openSans;
+                margin-top: 20px;
+                background: rgb(255, 255, 255);
+                color: $color_grey;
+            }
+        }
+        
+    }
+    
+}
+}

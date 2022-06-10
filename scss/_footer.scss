@@ -1,0 +1,263 @@
+@import "variables";
+
+a{
+    text-decoration: none;
+}
+
+.containerFooter{
+    z-index: -1;
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    background: $color_azulMarino;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+  
+    .containerFooter_C1{
+        width: 280px;
+        height: 250px;
+        padding: 5px 0px;
+        .containerFooter_C1_logo{
+            width: 140px;
+            height: 25px;
+           
+        }
+        .containerFooter_C1_location{
+            margin-top: 20px;
+            width: 100%;
+            padding: 5px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:flex-start ;
+            .containerFooter_C1_location_icon{
+                width: 22px;
+                height: 20px;
+            }
+            .containerFooter_C1_location_parrafo{
+                width: 300px;
+                font-family: $font_openSans;
+                margin-left: 10px;
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+
+
+    .containerFooter_C2{
+        width: 200px;
+        height: 250px;
+        padding-top:40px;
+        .C2_link{
+            margin: 10px 0px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: $font_openSans;
+            font-weight: 100;
+        }
+        .C2_link:hover{
+            width: 100px;
+            box-shadow: 0px 2px 0px rgb(255, 255, 255);
+        }
+    }
+
+
+    .containerFooter_C3{
+        width: 200px;
+        height: 250px;
+        padding-top:40px;
+        .C2_link{
+            margin: 10px 0px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: $font_openSans;
+            font-weight: 100;
+        }
+        .C2_link:hover{
+            width: 100px;
+            box-shadow: 0px 2px 0px rgb(255, 255, 255);
+        }
+    }
+
+
+    .containerFooter_C4{
+        width: 150px;
+        height: 220px;
+        padding-top:40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .redes{
+            width: 100%;
+            padding: 5px 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            .containerFooter_C4_red{
+                width: 40px;
+                height: 40px;
+                border:1px solid white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.5s all;
+                .iconRed{
+                    color: aliceblue;
+                    transition: 0.3s all;
+                }
+            }
+            .containerFooter_C4_red:hover{
+                border:1px solid $color_primary;
+                cursor: pointer;
+                .iconRed{
+                    color: $color_primary;
+                }
+            }
+        }
+
+        .copyRight{
+            font-family: $font_openSans;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:423px){
+    
+.containerFooter{
+    z-index: -1;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: $color_azulMarino;
+    color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    .containerFooter_C1{
+        width: 280px;
+        height: initial;
+        padding: 5px 20px;
+        .containerFooter_C1_logo{
+            width: 140px;
+            height: 25px;
+           
+        }
+        .containerFooter_C1_location{
+            margin-top: 20px;
+            width: 100%;
+            padding: 5px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:flex-start ;
+            .containerFooter_C1_location_icon{
+                width: 22px;
+                height: 20px;
+            }
+            .containerFooter_C1_location_parrafo{
+                width: 300px;
+                font-family: $font_openSans;
+                margin-left: 10px;
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+    }
+
+
+    .containerFooter_C2{
+        width: 200px;
+        height: initial;
+        padding-top:40px;
+        padding-left: 20px;
+        .C2_link{
+            margin: 10px 0px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: $font_openSans;
+            font-weight: 100;
+        }
+        .C2_link:hover{
+            width: 100px;
+            box-shadow: 0px 2px 0px rgb(255, 255, 255);
+        }
+    }
+
+
+    .containerFooter_C3{
+        width: 200px;
+        height: initial;
+        padding-top:40px;
+        padding-left: 20px;
+        .C2_link{
+            margin: 10px 0px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-family: $font_openSans;
+            font-weight: 100;
+        }
+        .C2_link:hover{
+            width: 100px;
+            box-shadow: 0px 2px 0px rgb(255, 255, 255);
+        }
+    }
+
+
+    .containerFooter_C4{
+        width: 100%;
+        height: initial;
+        padding-top:40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        .redes{
+            width: 40%;
+            margin: auto;
+            padding: 5px 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            .containerFooter_C4_red{
+                width: 40px;
+                height: 40px;
+                border:1px solid white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.5s all;
+                .iconRed{
+                    color: aliceblue;
+                    transition: 0.3s all;
+                }
+            }
+            .containerFooter_C4_red:hover{
+                border:1px solid $color_primary;
+                cursor: pointer;
+                .iconRed{
+                    color: $color_primary;
+                }
+            }
+        }
+
+        .copyRight{
+            font-family: $font_openSans;
+            font-size: 16px;
+        }
+    }
+}
+}
