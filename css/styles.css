@@ -254,7 +254,7 @@ body {
   color: hsl(208deg, 11%, 55%);
 }
 .containerPrimeraSection .containerPrimeraSection_subcont .containerPrimeraSection_subcont_right {
-  width: 500px;
+  width: 450px;
   padding: 10px 0px;
   margin-right: 30px;
 }
@@ -338,7 +338,7 @@ body {
   color: hsl(208deg, 11%, 55%);
 }
 .containerSegundaSection .containerSegundaSection_subcont .containerSegundaSection_subcont_right {
-  width: 500px;
+  width: 400px;
   padding: 10px 0px;
   margin-left: 100px;
 }
@@ -424,7 +424,7 @@ body {
   color: hsl(208deg, 11%, 55%);
 }
 .containerTerceraSection .containerTerceraSection_subcont .containerTerceraSection_subcont_right {
-  width: 500px;
+  width: 450px;
   padding: 10px 0px;
   margin-right: 30px;
 }
