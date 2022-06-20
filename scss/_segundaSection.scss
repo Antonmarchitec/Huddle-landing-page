@@ -4,6 +4,7 @@
     width: 100%;
     padding: 20px 0px;
     background: white;
+    
     .containerSegundaSection_subcont{
         width: 90%;
         padding: 40px 0px;
@@ -57,13 +58,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0px 0px 30px -15px $color_grey;
+        box-shadow: 0px 0px 10px $color_grey;
         border-radius: 20px;
-       
+        
         .containerSegundaSection_subcont_right{
             width: 100%;
             padding:10px 50px;
             margin-left: initial;
+
         }
 
         .containerSegundaSectionsubcont_left{
