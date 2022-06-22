@@ -234,7 +234,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+  border: 2px solid rgb(179, 179, 179);
   border-radius: 20px;
 }
 .containerPrimeraSection .containerPrimeraSection_subcont .containerPrimeraSectionsubcont_left {
@@ -275,7 +275,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+    border: 2px solid rgb(179, 179, 179);
     border-radius: 20px;
   }
   .containerPrimeraSection .containerPrimeraSection_subcont .containerPrimeraSection_subcont_right {
@@ -318,7 +318,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+  border: 2px solid rgb(179, 179, 179);
   border-radius: 20px;
 }
 .containerSegundaSection .containerSegundaSection_subcont .containerSegundaSectionsubcont_left {
@@ -358,7 +358,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+    border: 2px solid rgb(179, 179, 179);
     border-radius: 20px;
   }
   .containerSegundaSection .containerSegundaSection_subcont .containerSegundaSection_subcont_right {
@@ -404,7 +404,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+  border: 2px solid rgb(179, 179, 179);
   border-radius: 20px;
 }
 .containerTerceraSection .containerTerceraSection_subcont .containerTerceraSectionsubcont_left {
@@ -436,7 +436,7 @@ body {
   width: 700px;
   padding: 80px 0px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+  border: 2px solid rgb(179, 179, 179);
   background: white;
 }
 .containerTerceraSection .containerTerceraSection_contLittle .containerTerceraSection_contLittle_title {
@@ -479,7 +479,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+    border: 2px solid rgb(179, 179, 179);
     border-radius: 20px;
   }
   .containerTerceraSection .containerTerceraSection_subcont .containerTerceraSection_subcont_right {
@@ -512,7 +512,7 @@ body {
     width: 85%;
     padding: 40px 0px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px hsl(208deg, 11%, 55%);
+    border: 2px solid rgb(179, 179, 179);
     background: white;
   }
   .containerTerceraSection .containerTerceraSection_contLittle .containerTerceraSection_contLittle_title {
